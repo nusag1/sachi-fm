@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+ <channel>
+  <title>幸FM</title>
+  <link>https://nusag1.github.io/sachi-fm/</link>
+  <atom:link href="https://nusag1.github.io/sachi-fm/feed.xml" rel="self" type="application/rss+xml"/>
+  <description>通学のおともに、毎朝10分。2人の幸が、今日のニュース・天気・基本情報の1問・今日のインプットを話します。</description>
+  <language>ja</language>
+  <itunes:author>幸</itunes:author>
+  <itunes:image href="https://nusag1.github.io/sachi-fm/cover.png"/>
+  <itunes:category text="Education"/>
+  <itunes:explicit>false</itunes:explicit>
+  <itunes:block>Yes</itunes:block>
+  <itunes:type>episodic</itunes:type>
+
+ </channel>
+</rss>
