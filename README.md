@@ -6,6 +6,7 @@
 - 声：VOICEVOX:春日部つむぎ（ひなた）、VOICEVOX:冥鳴ひまり（みお）。エンジンは PC3 の `~/tools/windows-cpu/run.exe`（使うときだけ起こす）
 - MP3 は GitHub のリリース（タグ `fm-<日付>`）。ページと feed は `docs/`（GitHub Pages）
 - 個人の情報（予定など）は入れない（2026-10-22 白さん決定）
+- 長さ・日曜のふり返り回は `settings.json`（`minutes` 10／20、`sunday` review／normal）。白さんが #開発部 で言ったら書きかえる。ふり返り回の材料は `tools/week_digest.py`
 
 ## 毎朝（PC3 の幸）
 `台本の書き方.md` のとおり `scripts/<日付>.json` を書いて：

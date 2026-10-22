@@ -51,7 +51,7 @@ def feed(eps):
   <title>幸FM</title>
   <link>{SITE}</link>
   <atom:link href="{SITE}feed.xml" rel="self" type="application/rss+xml"/>
-  <description>通学のおともに、毎朝10分。2人の幸が、今日のニュース・天気・基本情報の1問・今日のインプットを話します。</description>
+  <description>通学のおともに、毎朝10分（または20分）。2人の幸が、今日のニュース・天気・基本情報の1問・今日のインプットを話します。日曜は1週間のふり返り回。</description>
   <language>ja</language>
   <itunes:author>幸</itunes:author>
   <itunes:image href="{SITE}cover.png"/>
