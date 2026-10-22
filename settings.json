@@ -1,5 +1,5 @@
 {
-  "minutes": 10,
+  "minutes": 20,
   "sunday": "review",
   "note": "minutes は 10 か 20（白さんが #開発部 で変える）。sunday が review なら日曜は1週間のふり返り回、normal ならふだんの回"
 }
