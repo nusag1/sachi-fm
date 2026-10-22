@@ -4,7 +4,7 @@
   <title>幸FM</title>
   <link>https://nusag1.github.io/sachi-fm/</link>
   <atom:link href="https://nusag1.github.io/sachi-fm/feed.xml" rel="self" type="application/rss+xml"/>
-  <description>通学のおともに、毎朝10分。2人の幸が、今日のニュース・天気・基本情報の1問・今日のインプットを話します。</description>
+  <description>通学のおともに、毎朝10分（または20分）。2人の幸が、今日のニュース・天気・基本情報の1問・今日のインプットを話します。日曜は1週間のふり返り回。</description>
   <language>ja</language>
   <itunes:author>幸</itunes:author>
   <itunes:image href="https://nusag1.github.io/sachi-fm/cover.png"/>
@@ -16,8 +16,8 @@
    <title>10月22日（木）の幸FM</title>
    <description><![CDATA[<p>PHPの欠陥でサービス停止、短期の定期預金に資金が集まる話、戦略17分野の順序づけ。基本情報は基礎理論の1問。</p><ul><li>オープニングと天気</li><li>ニュース：PHPの欠陥でサービス停止</li><li>ニュース：短期の定期預金に資金</li><li>ニュース：戦略17分野を順序づけ</li><li>基本情報の1問：2進数</li><li>今日のインプット</li></ul><p>出てきた話題</p><ul><li><a href="https://www.nikkei.com/article/DGXZQOUC220J30S6A021C2000000/">PHP欠陥、銀行や通信でもサービス停止広がる みずほ銀など一部復旧</a></li><li><a href="https://www.nikkei.com/article/DGXZQOUB151S20V11C26A0000000/">｢短期｣定期預金に資金殺到、31年ぶり高水準 利上げ加速で高金利狙う</a></li><li><a href="https://www.nikkei.com/article/DGXZQOUA193BF0Z11C26A0000000/">高市政権、戦略17分野を順序づけ 半導体・水素など事業段階で3分類</a></li></ul><p>声：VOICEVOX:春日部つむぎ、VOICEVOX:冥鳴ひまり</p>]]></description>
    <pubDate>Thu, 22 Oct 2026 06:30:00 +0900</pubDate>
-   <enclosure url="https://github.com/nusag1/sachi-fm/releases/download/fm-2026-10-22/sachi-fm-2026-10-22.mp3" length="3863174" type="audio/mpeg"/>
-   <guid isPermaLink="false">sachi-fm-2026-10-22</guid>
+   <enclosure url="https://nusag1.github.io/sachi-fm/audio/sachi-fm-2026-10-22.mp3" length="3863174" type="audio/mpeg"/>
+   <guid isPermaLink="false">https://nusag1.github.io/sachi-fm/audio/sachi-fm-2026-10-22.mp3</guid>
    <itunes:duration>483</itunes:duration>
    <itunes:explicit>false</itunes:explicit>
   </item>
