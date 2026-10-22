@@ -1,1 +1,33 @@
-[]
+[
+ {
+  "date": "2026-10-22",
+  "title": "10月22日（木）の幸FM",
+  "summary": "PHPの欠陥でサービス停止、短期の定期預金に資金が集まる話、戦略17分野の順序づけ。基本情報は基礎理論の1問。",
+  "chapters": [
+   "オープニングと天気",
+   "ニュース：PHPの欠陥でサービス停止",
+   "ニュース：短期の定期預金に資金",
+   "ニュース：戦略17分野を順序づけ",
+   "基本情報の1問：2進数",
+   "今日のインプット"
+  ],
+  "sources": [
+   {
+    "title": "PHP欠陥、銀行や通信でもサービス停止広がる みずほ銀など一部復旧",
+    "url": "https://www.nikkei.com/article/DGXZQOUC220J30S6A021C2000000/"
+   },
+   {
+    "title": "｢短期｣定期預金に資金殺到、31年ぶり高水準 利上げ加速で高金利狙う",
+    "url": "https://www.nikkei.com/article/DGXZQOUB151S20V11C26A0000000/"
+   },
+   {
+    "title": "高市政権、戦略17分野を順序づけ 半導体・水素など事業段階で3分類",
+    "url": "https://www.nikkei.com/article/DGXZQOUA193BF0Z11C26A0000000/"
+   }
+  ],
+  "url": "https://github.com/nusag1/sachi-fm/releases/download/fm-2026-10-22/sachi-fm-2026-10-22.mp3",
+  "bytes": 3863174,
+  "seconds": 483,
+  "credit": "声：VOICEVOX:春日部つむぎ、VOICEVOX:冥鳴ひまり"
+ }
+]
