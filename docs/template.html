@@ -4,6 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>幸FM</title>
+<!-- pwa -->
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="幸FM">
+<meta name="theme-color" content="#f2ede3">
+<!-- /pwa -->
 <meta name="description" content="通学のおともに、毎朝10分（または20分）。2人の幸が、今日のニュース・天気・基本情報の1問・今日のインプットを話します。日曜は1週間のふり返り回。">
 <link rel="icon" href="cover.png">
 <link rel="apple-touch-icon" href="cover.png">
@@ -52,5 +61,8 @@ document.getElementById('copy').onclick = async () => {
   try { await navigator.clipboard.writeText(i.value); document.getElementById('copy').textContent = 'コピーしました'; } catch (e) { i.select(); }
 };
 </script>
+<!-- pwa -->
+<script>if ('serviceWorker' in navigator && location.protocol !== 'file:') addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));</script>
+<!-- /pwa -->
 </body>
 </html>
