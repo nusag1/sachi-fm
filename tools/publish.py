@@ -2,11 +2,12 @@
 
   python -X utf8 tools/publish.py scripts/2026-10-22.json out/sachi-fm-2026-10-22.mp3 <秒数>
 
-- MP3 は GitHub のリリース（nusag1/sachi-fm、タグ fm-<日付>）に置く（リポジトリが重くならない）
+- MP3 は docs/audio/ に置いて GitHub Pages から配る（audio/mpeg で返るので iPhone でも再生できる）。
+  GitHub のリリース（タグ fm-<日付>）にも控えを置く（リリースは application/octet-stream・ダウンロード扱いで、iPhone の Podcast・Safari では再生できなかった。2026-10-22）
 - docs/episodes.json に足して、docs/feed.xml（Podcast アプリ用）と docs/index.html（ブラウザで聴くページ）を作り直し、push する
 - feed は itunes:block で Apple の検索には出さない（URL を知っている人だけ）
 """
-import json, sys, subprocess, datetime, html
+import json, sys, subprocess, datetime, html, shutil
 from email.utils import format_datetime
 from pathlib import Path
 
@@ -41,7 +42,7 @@ def feed(eps):
    <description><![CDATA[{notes_html(e)}]]></description>
    <pubDate>{format_datetime(dt)}</pubDate>
    <enclosure url="{html.escape(e['url'])}" length="{e['bytes']}" type="audio/mpeg"/>
-   <guid isPermaLink="false">sachi-fm-{e['date']}</guid>
+   <guid isPermaLink="false">{html.escape(e['url'])}</guid>
    <itunes:duration>{e['seconds']}</itunes:duration>
    <itunes:explicit>false</itunes:explicit>
   </item>""")
@@ -88,7 +89,9 @@ def main():
     exists = subprocess.run(['gh', 'release', 'view', tag, '--repo', REPO], capture_output=True).returncode == 0
     if exists: run('gh', 'release', 'upload', tag, str(mp3), '--clobber', '--repo', REPO)
     else: run('gh', 'release', 'create', tag, str(mp3), '--repo', REPO, '--title', script['title'], '--notes', script['summary'] + '\n\n' + credit)
-    url = f'https://github.com/{REPO}/releases/download/{tag}/{mp3.name}'
+    (DOCS / 'audio').mkdir(exist_ok=True)
+    shutil.copy(mp3, DOCS / 'audio' / mp3.name)
+    url = f'{SITE}audio/{mp3.name}'
     eps_p = DOCS / 'episodes.json'
     eps = json.loads(eps_p.read_text(encoding='utf-8')) if eps_p.exists() else []
     eps = [e for e in eps if e['date'] != date]
