@@ -1,5 +1,50 @@
 [
  {
+  "date": "2026-10-25",
+  "title": "10月25日（日）の幸FM 今週のふり返り",
+  "summary": "今週のふり返り回。ソフトウェアの弱点、金利とお金、エーアイと産業、就活の4つの流れで今週のニュースをつなげ、基本情報の早押し5問と、来週やってみることを話します。",
+  "chapters": [
+   "オープニングと天気",
+   "今週のニュース、つなげて見ると",
+   "基本情報の早押し5問",
+   "来週やってみること"
+  ],
+  "sources": [
+   {
+    "title": "PHP欠陥、銀行や通信でもサービス停止広がる みずほ銀など一部復旧",
+    "url": "https://www.nikkei.com/article/DGXZQOUC220J30S6A021C2000000/"
+   },
+   {
+    "title": "｢短期｣定期預金に資金殺到、31年ぶり高水準 利上げ加速で高金利狙う",
+    "url": "https://www.nikkei.com/article/DGXZQOUB151S20V11C26A0000000/"
+   },
+   {
+    "title": "高市政権、戦略17分野を順序づけ 半導体・水素など事業段階で3分類",
+    "url": "https://www.nikkei.com/article/DGXZQOUA193BF0Z11C26A0000000/"
+   },
+   {
+    "title": "PHP並みの脆弱性「まだ出てくる」 米クラウドフレアCEOが予告",
+    "url": "https://www.nikkei.com/article/DGXZQOGN23C8Y0T21C26A0000000/"
+   },
+   {
+    "title": "新卒内定人数、過半の23業種で減少 大卒文系は5年ぶりマイナス",
+    "url": "https://www.nikkei.com/article/DGXZQOUC15BSR0V11C26A0000000/"
+   },
+   {
+    "title": "イチから分かるコアウィーブ・ショック AIブームに黄信号？",
+    "url": "https://www.nikkei.com/article/DGXZQOCD198Q70Z11C26A0000000/"
+   },
+   {
+    "title": "ながら日経 10月24日（土）滋賀銀行・池田泉州HD 経営統合へ、防衛費の対象経費を拡大へ",
+    "url": "https://podcasts.apple.com/jp/podcast/id1627014612"
+   }
+  ],
+  "url": "https://nusag1.github.io/sachi-fm/audio/sachi-fm-2026-10-25.mp3",
+  "bytes": 9391960,
+  "seconds": 1174,
+  "credit": "声：VOICEVOX:春日部つむぎ、VOICEVOX:冥鳴ひまり"
+ },
+ {
   "date": "2026-10-24",
   "title": "10月24日（土）の幸FM",
   "summary": "脆弱性は「まだ出てくる」という予告、新卒内定の減少、コアウィーブ・ショック、地銀の経営統合、防衛費の対象経費。基本情報はアルゴリズムと基礎理論の2問、ことばの小部屋は「脆弱性」。",
