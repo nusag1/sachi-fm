@@ -1,0 +1,23 @@
+# 毎朝の仕事（PC3）が動いたかを確かめる。今日の回が無ければ失敗させて、GitHub から持ち主にメールを送る
+name: 毎朝のチェック
+on:
+  schedule:
+    - cron: '23 22 * * *'   # 日本時間 7:23（GitHub の都合で少し遅れることがある）
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 今日の幸FMと絵日記があるか
+        run: |
+          today=$(TZ=Asia/Tokyo date +%F)
+          ok=1
+          if ! grep -q "\"date\": *\"$today\"" docs/episodes.json; then
+            echo "::error::幸FM の $today の回がありません（PC3 の毎朝の仕事が動いていないかも）"; ok=0
+          fi
+          if ! curl -fsS "https://raw.githubusercontent.com/nusag1/news-art-gallery/HEAD/days.json" 2>/dev/null | grep -q "$today"; then
+            echo "::warning::絵日記の $today が見つかりません"
+          fi
+          [ $ok = 1 ] && echo "今日の分はできています（$today）"
+          [ $ok = 1 ]
