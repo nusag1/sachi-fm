@@ -14,3 +14,6 @@
 python -X utf8 tools/make_episode.py scripts/<日付>.json <作業フォルダ>
 python -X utf8 tools/publish.py scripts/<日付>.json <作業フォルダ>/sachi-fm-<日付>.mp3 <秒数>
 ```
+
+## 毎朝のチェック（2026-11-11〜）
+`.github/workflows/morning-check.yml` が毎朝 7:23（日本時間）に、`docs/episodes.json` に今日の回があるかを確かめる。無ければ失敗になり、GitHub から持ち主にメールが届く（PC3 が止まっていても動く）。絵日記（news-art-gallery の days.json）は警告だけ。手で動かすときは `gh workflow run morning-check.yml -R nusag1/sachi-fm`
