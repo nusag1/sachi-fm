@@ -1,5 +1,51 @@
 [
  {
+  "date": "2026-11-13",
+  "title": "11月13日（金）の幸FM",
+  "summary": "エヌビディアのトップ交代と株安、マイクロソフト365の大規模障害、博報堂DYの広告3社統合、大腸がんのAI検査、アセアンの石油共同備蓄。基本情報はマネジメントとセキュリティの2問、ことばの小部屋は「コーポレートガバナンス」。",
+  "chapters": [
+   "オープニングと天気",
+   "ニュース：エヌビディア株安、トップ交代",
+   "ニュース：マイクロソフト365の大規模障害",
+   "ニュース：博報堂DY、広告3社統合へ",
+   "ニュース：下剤・内視鏡不要の大腸がんAI検査",
+   "ニュース：アセアンで石油共同備蓄",
+   "基本情報の2問：SLAと可用性",
+   "ことばの小部屋：コーポレートガバナンス",
+   "今日のインプット"
+  ],
+  "sources": [
+   {
+    "title": "NVIDIA株4%安 CEO辞任問題、テック連鎖売りは回避も市場の重荷に",
+    "url": "https://www.nikkei.com/article/DGXZQOGN12CPK0S6A111C2000000/"
+   },
+   {
+    "title": "NVIDIA、ファン氏事実上解任で幕引き急ぐ クレス暫定CEOで後任探し",
+    "url": "https://www.nikkei.com/article/DGXZQOGN12CMY0S6A111C2000000/"
+   },
+   {
+    "title": "マイクロソフト、「365」世界で大規模障害 メール送れずビジネスに影響",
+    "url": "https://www.nikkei.com/article/DGXZQOGN12CY20S6A111C2000000/"
+   },
+   {
+    "title": "博報堂DY、20年続けた「競わせる経営」転換 傘下の広告3社統合へ",
+    "url": "https://www.nikkei.com/article/DGXZQOUC115QQ0R11C26A1000000/"
+   },
+   {
+    "title": "下剤・内視鏡不要の大腸がんAI検査、27年実用化へ新興が55億円調達",
+    "url": "https://www.nikkei.com/article/DGXZQOUC09ANP0Z01C26A1000000/"
+   },
+   {
+    "title": "ながら日経 11月13日（金）経済安保の重要物資 老朽生産設備の国有化検討、ASEANで石油共同備蓄 日本が主導",
+    "url": "https://podcasts.apple.com/jp/podcast/id1627014612"
+   }
+  ],
+  "url": "https://nusag1.github.io/sachi-fm/audio/sachi-fm-2026-11-13.mp3",
+  "bytes": 8996340,
+  "seconds": 1124,
+  "credit": "声：VOICEVOX:春日部つむぎ、VOICEVOX:冥鳴ひまり"
+ },
+ {
   "date": "2026-11-12",
   "title": "11月12日（木）の幸FM",
   "summary": "老朽設備の国有化検討、スマートニュースの企業価値8割減、良品計画の不正アクセス、生保の国債と減損、ネット銀行のポイント上乗せ。基本情報はセキュリティとネットワークの2問、ことばの小部屋は「減損」。",
