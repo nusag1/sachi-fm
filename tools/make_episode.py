@@ -6,7 +6,7 @@
 - MP3 は ffmpeg（~/tools/ffmpeg-*/bin/ffmpeg.exe）。ポッドキャストの音量（-16 LUFS）にそろえる
 - 台本の形は 台本の書き方.md
 """
-import json, sys, io, math, struct, wave, time, subprocess, urllib.request, urllib.parse, glob, os
+import json, re, sys, io, math, struct, wave, time, subprocess, urllib.request, urllib.parse, glob, os
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -41,7 +41,17 @@ def start_engine():
     p.terminate(); sys.exit('VOICEVOX ENGINE が起動しませんでした')
 
 
+# 読みの直し（2026-11-17 白さん：「幸」が「こう」と読まれる → 「さち」に）
+# 幸い・幸せ・幸福・幸運・不幸など、ふつうの言葉の「幸」はそのまま
+_SACHI = re.compile(r'(?<![不多薄])幸(?![いせ福運])')
+
+
+def yomi(text):
+    return _SACHI.sub('さち', text)
+
+
 def say(text, speaker, speed=1.08):
+    text = yomi(text)
     q = json.loads(http('/audio_query?' + urllib.parse.urlencode({'text': text, 'speaker': speaker}), data=b'', method='POST'))
     q['speedScale'] = speed
     q['outputSamplingRate'] = RATE
