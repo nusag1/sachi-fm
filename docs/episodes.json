@@ -1,5 +1,42 @@
 [
  {
+  "date": "2026-11-28",
+  "title": "11月28日（土）の幸FM",
+  "summary": "エーアイで変わる管理職、企業年金の資産超過、東京のオフィス賃料、エヌビディアと半導体。基本情報はWBSとフィッシング。",
+  "chapters": [
+   "オープニングと天気",
+   "ニュース：AIと管理職",
+   "ニュース：企業年金の資産超過",
+   "ニュース：東京のオフィス賃料",
+   "ニュース：エヌビディアと半導体",
+   "基本情報の2問：WBSとフィッシング",
+   "ことばの小部屋：確定拠出年金",
+   "今日のインプット"
+  ],
+  "sources": [
+   {
+    "title": "｢もう管理職はいらない｣ 震源はシリコンバレー、AIで消える肩書と階層",
+    "url": "https://www.nikkei.com/article/DGXZQOGN246EE0U6A121C2000000/"
+   },
+   {
+    "title": "企業年金が初の資産超過、25年度 余剰分を成長投資や加入者還元に",
+    "url": "https://www.nikkei.com/article/DGXZQOUB198VE0Z11C26A0000000/"
+   },
+   {
+    "title": "世界のオフィス賃料・価格、東京が伸びトップ 人材確保へ際立つ需要",
+    "url": "https://www.nikkei.com/article/DGXZQOUB200UR0Q6A121C2000000/"
+   },
+   {
+    "title": "地政学ラジオ 第16回「世界を揺るがすエヌビディア問題の行方」",
+    "url": "https://podcasts.apple.com/jp/podcast/id1896002121"
+   }
+  ],
+  "url": "https://nusag1.github.io/sachi-fm/audio/sachi-fm-2026-11-28.mp3",
+  "bytes": 8691021,
+  "seconds": 1086,
+  "credit": "声：VOICEVOX:春日部つむぎ、VOICEVOX:冥鳴ひまり"
+ },
+ {
   "date": "2026-11-27",
   "title": "11月27日（金）の幸FM",
   "summary": "東京電力のエーアイインフラ、キオクシアのメモリー、アクティビスト、食材インフレ、ものづくりの暗黙知。基本情報はソルトとDHCP。",
